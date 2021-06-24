@@ -1,0 +1,27 @@
+RISC OS free Beeps
+------------------
+
+This is a collection of sound samples from the operating system RISC OS,
+originally produced by Acorn Computers.
+
+It contains the desktop "beeps" that you can set the error/warning sound 
+too.
+
+Under RISC OS these sounds are generated programmatically using the synthesizer
+modules WaveSynth, Percussion, and StringLib. No attempt to similarly generate 
+them was done, instead the the audio was captured from RISC OS digitally and
+sound samples saved from that.
+
+I make no claim as to how good they are. Personally I think some of them are
+pretty horrible!
+
+Sounds are (c) RISC OS Developments Ltd and are released under the terms
+of the Apache License 2.0. Please see file LICENCE for more details.
+
+Sound conversion by Peter Howkins. June 2021.
+
+Sound conversion description (feel free to ignore)
+--------------------------------------------------
+
+Sound of all beeps was captured from RPCEmu using OBS into a wav file.
+This wav file was then split into individual samples using Audacity.
